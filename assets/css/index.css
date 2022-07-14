@@ -3,12 +3,15 @@
 body {
     color: var(--bootstrap-bg-light);
     background-color: var(--firebase-navy-blue);
+    min-height: 200vh;
 }
 
 #header {
     margin-top: 20px;
     width: 100%;
     justify-content: center;
+    position: sticky;
+    top: 20px;
 }
 
 #bar {
@@ -75,6 +78,11 @@ body {
     color: inherit;
     margin-top: 2em;
     outline: none;
+    border: 1px solid var(--default-shadow-gray);
+}
+
+#link-invite a {
+    color: var(--bootstrap-bg-light);
 }
 
 .img-center {

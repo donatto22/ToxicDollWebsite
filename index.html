@@ -19,38 +19,40 @@
     <title>ToxicDoll</title>
 </head>
 <body>
-    <div id="container">
-        <div id="header" flex>
-            <div id="bar" flex>
-                <div class="bar-nav" flex>
-                    <div class="img">
-                        <img src="./assets/images/avatar.jpg" alt="Avatar bot" rounded>
-                    </div>
+    <div id="header" flex>
+        <div id="bar" flex>
+            <div class="bar-nav" flex>
+                <div class="img">
+                    <img src="./assets/images/avatar.jpg" alt="Avatar bot" rounded>
+                </div>
 
-                    <div class="rigth">
-                        <a href="#invite" title="Add to server">
-                            <i class="icon ion-md-add-circle-outline"></i>
-                        </a>
+                <div class="rigth">
+                    <a href="#invite" title="Add to server">
+                        <i class="icon ion-md-add-circle-outline"></i>
+                    </a>
 
-                        <a href="#donate" title="donate">
-                            <i class="icon ion-md-heart"></i>
-                        </a>
+                    <a href="#donate" title="donate">
+                        <i class="icon ion-md-heart"></i>
+                    </a>
 
-                        <a href="#extensiones" title="extensions">
-                            <i class="icon ion-md-construct"></i>
-                        </a>
-                    </div>
+                    <a href="#extensiones" title="extensions">
+                        <i class="icon ion-md-construct"></i>
+                    </a>
                 </div>
             </div>
         </div>
-
+    </div>
+    
+    <div id="container">
         <div id="center-div">
             <div id="invite" flex>
                 <div class="img-center">
                     <img src="./assets/images/avatar.jpg" alt="Avatar bot" rounded>
                 </div>
 
-                <button pointer>💛 Agregar al servidor</button>
+                <button id="link-invite" pointer>
+                    <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=962044667690623067&permissions=8&scope=bot%20applications.commands">💛 Agregar al servidor</a>
+                </button>
             </div>
         </div>
         
