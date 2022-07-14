@@ -1,6 +1,4 @@
 # ToxicDoll
 
-<p align="rigth">
-    [Patreon](https://www.patreon.com/toxicdoll) | 
-    [Paypal](https://www.paypal.com/donate/?hosted_button_id=YXX3TCAJZRUZE)
-</p>
+[Patreon](https://www.patreon.com/toxicdoll) | 
+[Paypal](https://www.paypal.com/donate/?hosted_button_id=YXX3TCAJZRUZE)
