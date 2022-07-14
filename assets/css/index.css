@@ -7,10 +7,9 @@ body {
 }
 
 #header {
-    margin-top: 20px;
     width: 100%;
     justify-content: center;
-    position: sticky;
+    position: fixed;
     top: 20px;
 }
 
@@ -69,11 +68,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
 }
 
 #invite button {
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: transparent;
     color: inherit;
     margin-top: 2em;
