@@ -1,1 +1,86 @@
 @import url('./styles.config.css');
+
+body {
+    color: var(--bootstrap-bg-light);
+    background-color: var(--firebase-navy-blue);
+}
+
+#header {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+#bar {
+    width: 50%;
+    height: 70px;
+    background-color: #263040;
+    box-shadow: 0px 3px 3px 1px var(--firebase-dark-navy-blue);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#bar .bar-nav {
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#bar .rigth {
+    justify-self: flex-end;
+    align-items: center;
+}
+
+.rigth a {
+    color: var(--shadow-clear);
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.rigth a:not(:last-child) {
+    margin-right: 20px;
+}
+
+.rigth a:hover i {
+    padding-top: 20px;
+    margin-top: 20px;
+    color: var(--bootstrap-bg-light);
+    box-shadow: 0px 1px 0 0 white;
+}
+
+.rigth a[title="donate"]:hover i {
+    color: var(--bootstrap-bg-danger);
+}
+
+.img {
+    width: 34px;
+}
+
+.img img {
+    border: 2px solid white;
+}
+
+
+#invite {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#invite button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: inherit;
+    margin-top: 2em;
+    outline: none;
+}
+
+.img-center {
+    width: 200px;
+}
+
+[rounded] {
+    border-radius: 50%;
+}

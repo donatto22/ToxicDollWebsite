@@ -59,6 +59,7 @@
     --firebase-coreal: #FF8A65;
     --firebase-gray: #ECEFF1;
     --firebase-navy-blue: #2C384A;
+    --firebase-dark-navy-blue: #222b39;
 }
 
 :root {
@@ -112,7 +113,6 @@ a, li, ul, ol {
 }
 
 a {
-    text-decoration: underline;
     cursor: pointer !important;
     width: fit-content;
 }
@@ -144,6 +144,6 @@ pre::before, pre::after {
     display: none !important;
 }
 
-.flex {
+[flex] {
     display: flex;
 }
