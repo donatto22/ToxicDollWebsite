@@ -6,6 +6,8 @@
 /* Normalize */
 @import url("./lib/normalize.css");
 
+@import url("./footer.css");
+
 /* *, *:after, *:before {
     box-sizing: border-box;
     user-select: none;

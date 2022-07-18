@@ -1,0 +1,43 @@
+#footer {
+    background-color: var(--firebase-dark-navy-blue);
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.term {
+    margin: 1em 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.term button {
+    background-color: transparent;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.term button {
+    border: 0;
+    display: block;
+    width: 50px;
+    filter: grayscale(100%);
+}
+
+.term button:hover {
+    filter: none;
+}
+
+.term button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.term:not(:first-child) {
+    padding-top: 1em;
+    border-top: 1px solid var(--firebase-navy-blue);
+    color: var(--default-shadow-gray);
+}
