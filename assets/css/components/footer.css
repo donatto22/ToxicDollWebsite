@@ -1,6 +1,5 @@
 #footer {
     background-color: var(--firebase-dark-navy-blue);
-    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,4 +39,38 @@
     padding-top: 1em;
     border-top: 1px solid var(--firebase-navy-blue);
     color: var(--default-shadow-gray);
+}
+
+.links a  {
+    display: block;
+    color: var(--default-shadow-gray);
+}
+
+.links a:hover {
+    color: var(--shadow-clear);
+}
+
+.links a:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.cont .title {
+    font-size: 30px;
+    color: var(--shadow-clear);
+}
+
+#container-footer {
+    width: 100%;
+    border-bottom: 1px solid var(--firebase-navy-blue);
+}
+
+#spacer-footer {
+    width: 50%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    margin-bottom: 1em;
 }
