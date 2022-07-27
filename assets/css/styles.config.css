@@ -66,6 +66,7 @@
 }
 
 :root {
+    --default-roxa: #f0a4ed;
     --default-purple: #373295;
     --default-white: #fcfcfc;
     --default-black: #404040;
@@ -149,4 +150,8 @@ pre::before, pre::after {
 
 [flex] {
     display: flex;
+}
+
+[rounded] {
+    border-radius: 50%;
 }

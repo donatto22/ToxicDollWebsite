@@ -1,0 +1,78 @@
+@import url('./styles.config.css');
+
+body {
+    color: var(--bootstrap-bg-light);
+    background-color: var(--firebase-navy-blue);
+}
+
+#container {
+    background-color: var(--firebase-dark-navy-blue);
+    width: 80%;
+    margin: 7.8em auto 2em auto;
+    border-radius: 16px;
+}
+
+#container-tos {
+    width: 90%;
+    margin: 3em auto;
+    min-height: 300px;
+}
+
+#title {
+    color: var(--bootstrap-skyblue);
+    font-size: 24px;
+    padding-bottom: .5em;
+    border-bottom: 1px solid var(--firebase-navy-blue);
+}
+
+#terminos {
+    margin-top: 2em;
+}
+
+.termino {
+    margin: 2em 0;
+}
+
+.title-term {
+    font-size: 20px;
+    color: var(--bootstrap-bg-info);
+}
+
+.title-description {
+    margin: 10px 0;
+    color: var(--shadow-clear);
+    text-align: justify;
+    line-height: 2;
+}
+
+.min-cite {
+    font-style: italic;
+    color: var(--default-shadow-gray);
+}
+
+#fake-quote {
+    width: 80%;
+    min-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-bottom: 2em;
+    border: 1px solid #f0a4ed98;
+    border-left: 8px solid var(--default-roxa);
+}
+
+#q-container {
+    width: 90%;
+    margin: 2em auto;
+}
+
+#quote-title {
+    color: var(--default-roxa);
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+#quote-description {
+    text-align: justify;
+    line-height: 2;
+}

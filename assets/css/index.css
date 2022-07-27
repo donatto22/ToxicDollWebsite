@@ -3,9 +3,7 @@
 body {
     color: var(--bootstrap-bg-light);
     background-color: var(--firebase-navy-blue);
-    min-height: 200vh;
 }
-
 
 #invite {
     justify-content: center;
@@ -32,6 +30,17 @@ body {
     width: 200px;
 }
 
-[rounded] {
-    border-radius: 50%;
+#heart {
+    font-size: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heart span {
+    margin-top: .3em;
+}
+
+#content-donate {
+    justify-content: center;
+    margin-top: 2em;
 }
