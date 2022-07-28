@@ -1,0 +1,99 @@
+@import url('./styles.config.css');
+
+body {
+    color: var(--bootstrap-bg-light);
+    background-color: var(--firebase-navy-blue);
+}
+
+#container {
+    width: 80%;
+    margin: 7.8em auto 2em auto;
+    min-height: 300px;
+}
+
+#title {
+    font-size: 60px;
+    text-align: center;
+}
+
+.high {
+    color: var(--undraw-green);
+}
+
+.img-computer {
+    width: 70%;
+    margin: 2em auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img-computer img {
+    border-radius: 10px;
+    width: 80%;
+}
+
+#transfer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#kinds-transfer {
+    width: 80%;
+    display: grid;
+    gap: 8em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.kind {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-kind {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fake-quote {
+    margin: 2em 0;
+}
+
+.btn {
+    color: white;
+    display: block;
+    text-align: center;
+    border: 1px solid var(--undraw-handcraft-blue);
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+[data-kind="paypal"]:hover {
+    background-color: var(--paypal);
+    border-color: var(--paypal);
+}
+
+[data-kind="patreon"]:hover {
+    background-color: var(--patreon);
+    border-color: var(--patreon);
+}
+
+[data-kind="donateio"]:hover {
+    background-color: #728BD7;
+    border-color: #728BD7;
+}
+
+[data-img="border"] {
+    border-radius: 10px;
+}
+
+.fake-quote {
+    border-radius: 6px;
+    border: 1px solid #f0a4ed5b;
+    border-left-width: 4px;
+    border-left-color: var(--default-roxa);
+    padding: 10px 20px;
+}
