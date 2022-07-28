@@ -105,6 +105,11 @@ body {
     background-color: #f2f2f2;
 }
 
+body {
+    color: var(--bootstrap-bg-light);
+    background-color: var(--firebase-navy-blue);
+}
+
 img {
     width: 100%;
     pointer-events: none;
