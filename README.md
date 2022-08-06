@@ -1,4 +1,4 @@
 ## ToxicDoll
 
-[Patreon](https://www.patreon.com/toxicdoll) | 
+[Patreon](https://www.patreon.com/toxicdoll)
 
