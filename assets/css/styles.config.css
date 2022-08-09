@@ -100,13 +100,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: var(--default-black);
-    font-family: "Nunito";
-    background-color: #f2f2f2;
-}
-
-body {
     color: var(--bootstrap-bg-light);
+    font-family: "Nunito";
     background-color: var(--firebase-navy-blue);
 }
 

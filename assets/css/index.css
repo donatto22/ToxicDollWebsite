@@ -1,10 +1,5 @@
 @import url('./styles.config.css');
 
-body {
-    color: var(--bootstrap-bg-light);
-    background-color: var(--firebase-navy-blue);
-}
-
 #invite {
     justify-content: center;
     align-items: center;

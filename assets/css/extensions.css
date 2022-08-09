@@ -1,1 +1,88 @@
 @import url('./styles.config.css');
+
+#center-div {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.click {
+    color: var(--undraw-green);
+}
+
+#bots {
+    margin-top: 2em;
+}
+
+/* The image of the bot */
+.img-bot {
+    width: 100px;
+}
+
+/* Tags in the bot */
+.name-bot {
+    display: flex;
+    align-items: center;
+}
+
+.tag {
+    font-size: 14px;
+    margin-left: 6px;
+    padding: 4px 6px;
+    background-color: var(--default-black);
+    border-radius: 4px;
+    user-select: none;
+}
+
+[data-tag="nsfw"] {
+    background-color: var(--bootstrap-purple);
+}
+
+[data-tag="social"] {
+    background-color: var(--default-blue);
+}
+
+/* The card */
+
+.bot {
+    border-radius: 20px;
+    padding: 1em 2em; 
+    display: flex;
+    width: 350px;
+    background-color: var(--firebase-dark-navy-blue);
+}
+
+.bot:not(:last-child) {
+    margin-bottom: 2em;
+}
+
+.profile-bot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.name-bot {
+    font-size: 20px;
+}
+
+/* Button */
+
+.btn-bot {
+    margin-top: 12px;
+    color: white;
+    background-color: var(--firebase-navy-blue);
+    border-radius: 6px;
+    padding: 6px 20px;
+}
+
+.btn-bot:hover {
+    outline: 1px solid var(--default-roxa);
+}
+
+#title {
+    font-size: 50px;
+}
