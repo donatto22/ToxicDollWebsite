@@ -1,0 +1,79 @@
+@import url('./styles.config.css');
+
+#container {
+    min-height: 100vh;
+    margin-top: 5.5em;
+}
+
+.integration {
+    padding: 2em 0;
+}
+
+.min-integration {
+    min-height: 200px;
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.text {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.img-integration {
+    width: 50%;
+}
+
+/* Integration description style */
+.text .title {
+    font-size: 24px;
+    color: var(--undraw-green);
+}
+
+.text p {
+    color: var(--shadow-clear);
+}
+
+/* The commands */
+.commands {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style for the commands */
+.tag {
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px 10px;
+    background-color: var(--black-dark);
+    border-radius: 4px;
+    user-select: none;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.integration:not(:last-child) {
+    border-bottom: 1px solid var(--firebase-dark-navy-blue);
+}
+
+/* Integration description style */
+.img-integration img {
+    border-radius: 4px;
+    box-shadow: 0 0 20px -2px var(--blue-dark);
+}
+
+/* Double image style */
+.double-image img {
+    width: 80%;
+}
+
+.double-image img:nth-child(1) {
+    margin-left: 2em;
+}
+
+.double-image img:nth-child(2) {
+    margin-top: -6em;
+    margin-left: -4em;
+}
