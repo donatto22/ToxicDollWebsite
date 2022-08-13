@@ -1,1 +1,5 @@
 @import url('./styles.config.css');
+
+#container {
+    min-height: 100vh;
+}
