@@ -9,19 +9,11 @@
 @import url("./components/footer.css");
 @import url("./components/nav.css");
 
-/* *, *:after, *:before {
-    box-sizing: border-box;
-    user-select: none;
-} */
-
-* pre *, * code * {
-    user-select: text !important;
-}
-
 :root {
     --red-dark: #ea2c1a;
     --blue-dark: #0f283d;
     --black-dark: #2a2a2a;
+    --paypal-dark: #163152;
     --paypal: #1E477A;
     --patreon: #f96854;
 }

@@ -3,3 +3,127 @@
 #container {
     min-height: 100vh;
 }
+
+/* Estilos para los botones de cambio de idioma */
+
+#lang {
+    width: 180px;
+    margin: 7em auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 2.3em;
+}
+
+#lang button {
+    padding: .3em 1.2em;
+    border-radius: 6px;
+    border: 0;
+    outline: 2px solid var(--blue-dark);
+    background-color: transparent;
+}
+
+#lang button:hover {
+    background-color: var(--blue-dark);
+}
+
+#lang button img {
+    width: 30px;
+}
+
+button.lang-active {
+    outline: 1px solid var(--undraw-violet) !important;
+}
+
+/* Estilos para la hoja de privacidad */
+
+#container-privacy {
+    background-color: var(--firebase-dark-navy-blue);
+    width: 80%;
+    margin: 1.3em auto;
+    border-radius: 16px;
+}
+
+#min-container-privacy {
+    width: 90%;
+    padding: 2em 0 1em;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+#content {
+    margin-top: 2em;
+}
+
+/* Espaciado entre cada norma */
+
+#content > div {
+    margin: 2em 0;
+}
+
+#title {
+    color: var(--bootstrap-skyblue);
+    font-size: 24px;
+    padding-bottom: .5em;
+    border-bottom: 1px solid var(--firebase-navy-blue);
+}
+
+.title-p {
+    font-size: 20px;
+    color: var(--bootstrap-bg-info);
+}
+
+.content-p {
+    margin: 10px 0;
+    color: var(--shadow-clear);
+    text-align: justify;
+    line-height: 2;
+}
+
+.min-cite {
+    font-style: italic;
+    color: var(--default-shadow-gray);
+}
+
+/* Estilos para la tabla */
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 1em 0 0;
+    font-size: 0.9em;
+    min-width: 450px;
+    box-shadow: 0 0 20px -4px #181d27;
+    border-radius: 4px 4px 0 0;
+}
+
+.styled-table thead {
+    background-color: var(--paypal-dark);
+    text-align: left;
+    border-radius: 50%;
+}
+
+.styled-table thead tr th:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+
+.styled-table thead tr th:nth-child(2) {
+    border-top-right-radius: 10px;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 1.3em 2em;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* estilos para aclaración */
+#quote-end {
+    outline: 1px solid var(--firebase-coreal);
+    border-radius: 10px;
+    padding: 1em;
+    line-height: 2;
+}

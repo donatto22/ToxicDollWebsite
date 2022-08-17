@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) {
+    #bar {
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #bar {
+        width: 85% !important;
+    }
+}

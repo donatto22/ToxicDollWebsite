@@ -53,7 +53,133 @@
     <!-- Container -->
 
     <div id="container">
-        En contrucción
+        <div id="lang">
+            <button id="button_pe" class="lang-active" pointer>
+                <img src="../assets/images/flag_pe.png" alt="flag_pe">
+            </button>
+
+            <button id="button_us" pointer>
+                <img src="../assets/images/flag_us.png" alt="flag_us">
+            </button>
+        </div>
+
+        <div id="container-privacy">
+            <div id="min-container-privacy">
+                <div id="title">
+                    Política de Privacidad
+                </div>
+    
+                <div id="content">
+                    <div id="p1">
+                        <div class="title-p">
+                            Disparadores de Eventos en el Servidor
+                        </div>
+
+                        <div class="content-p">
+                            Los disparadores son acciones que ocurren en tu servidor cada que se ejecute una acción. <br>
+                            Si un usuario ingresa a tu servidor, entonces está el disparador <b>guildMemberAdd.</b> Si has configurado los canales para disparadores, entonces sabe que se requieren 2 datos, el <b>identificador</b> del servidor y del canal de texto en donde el Bot anuncia con un mensaje el evento.
+                        </div>
+                    </div>
+
+                    <div id="p2">
+                        <div class="title-p">
+                            Usuarios en Blacklist
+                        </div>
+
+                        <div class="content-p">
+                            Discord cada vez es más grande, y son sus usuarios quienes tienen el poder de mantenerlo estable, activo y unido. <br>
+                            El comando <b>botabuse</b> o <b>report</b> (menú contextual) se usa para enviar un abuso de autoridad contra otro usuario o algún acto de mal comportamiento que infraccione nuestros términos de uso, este comando obtiene ciertos datos.
+                        </div>
+
+                        <table class="styled-table">
+                            <thead>
+                                <tr>
+                                    <th>Server</th>
+                                    <th>User</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>----------</td>
+                                    <td>Photo</td>
+                                </tr>
+
+                                <tr>
+                                    <td>----------</td>
+                                    <td>Mention</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="p3">
+                        <div class="title-p">
+                            Sugerencias
+                        </div>
+
+                        <div class="content-p">
+                            El comando <b>botsuggestion</b> envía al creador del Bot una sugerencia sea de comando, mejora, o dato relacionado. <br>
+
+                        </div>
+
+                        <table class="styled-table">
+                            <thead>
+                                <tr>
+                                    <th>Server</th>
+                                    <th>User</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>----------</td>
+                                    <td>Mention</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="p4">
+                        <div class="title-p">
+                            Reportes de Fallos
+                        </div>
+
+                        <div class="content-p">
+                            Si encontraste un fallo, lo debes reportar usando <b>bugreport</b> y enviarás retroalimentación a mi creador para corregirlo inmediatamente.
+                            
+                        </div>
+
+                        <table class="styled-table">
+                            <thead>
+                                <tr>
+                                    <th>Server</th>
+                                    <th>User</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Id</td>
+                                    <td>Id</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Channel Name and Id</td>
+                                    <td>Photo</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Server Name</td>
+                                    <td>Mention</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="quote-end">
+                        Como vez, los datos que se obtienen solo se registran cuando un usuario envía un reporte de un fallo, abuso de autoridad o cuando configura un canal para disparadores.
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -102,5 +228,7 @@
             </div>
         </div>
     </div>
+
+    <script src="../assets/js/lang/privacy.js"></script>
 </body>
 </html>

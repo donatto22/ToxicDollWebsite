@@ -1,3 +1,5 @@
+@import url('./responsive/responsive-nav.css');
+
 #header {
     width: 100%;
     justify-content: center;
