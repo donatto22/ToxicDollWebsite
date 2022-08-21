@@ -1,1 +1,33 @@
 @import url('./styles.config.css');
+
+#container {
+    min-height: 100vh;
+}
+
+#support-container {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+#support-img {
+    width: 30%;
+}
+
+#support-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    font-size: 50px;
+    line-height: 1.3;
+}
+
+#afiliate-btn {
+    display: block;
+    margin-top: 1em;
+    padding: .1em 1em;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #aaa;
+}
