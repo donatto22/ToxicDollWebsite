@@ -1,9 +1,5 @@
 @import url('./styles.config.css');
 
-#container {
-    min-height: 100vh;
-}
-
 #support-container {
     background-image: url('../images/hero-bg.svg');
     background-size: cover;
@@ -31,17 +27,71 @@
 #afiliate-btn {
     cursor: pointer;
     display: block;
-    margin-top: .7em;
+    margin-top: .5em;
     padding: .1em 1em;
-    border-radius: 10px;
-    background-color: var(--discord-blue);
+    /* border-radius: 10px; */
+    border: 2px solid var(--discord-black4);
+    box-shadow: 10px 10px 0 var(--discord-black4);
+    background-color: var(--discord-blue2);
 }
 
 #afiliate-btn:hover {
-    background-color: var(--bootstrap-skyblue);
+    background-color: #94a9ce;
 }
 
 #afiliate-btn:active {
     background-color: var(--bootstrap-bg-info);
+}
 
+/* Estilos para las recomendaciones */
+
+#recommends {
+    width: 100%;
+}
+
+.recommendation {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.rec {
+    padding: 5em 0;
+    font-size: 18px;
+}
+
+.recommendation > div {
+    width: 50%;
+}
+
+.rec:nth-child(2n + 1) {
+    background-color: var(--firebase-dark-navy-blue);
+}
+
+.r-title {
+    font-size: 30px;
+    color: var(--bootstrap-skyblue);
+}
+
+.r-description {
+    width: 70%;
+    margin-top: 2em;
+    line-height: 2;
+    text-align: justify;
+    color: var(--firebase-gray);
+}
+
+.details > div {
+    display: flex;
+    align-items: center;
+}
+
+.details > div:not(:last-child) {
+    margin-bottom: 2em;
+}
+
+.details i {
+    margin-right: 10px;
+    color: var(--discord-blue2);
+    font-size: 30px;
 }
