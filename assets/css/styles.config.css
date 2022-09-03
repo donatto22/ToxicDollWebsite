@@ -60,18 +60,27 @@
     --firebase-dark-navy-blue: #222b39;
 }
 
+/* Discord colors */
 :root {
-    --default-roxa: #f0a4ed;
+    --discord-blue: #7289da;
+    --discord-black1: #424549;
+    --discord-black2: #36393e;
+    --discord-black3: #282b30;
+    --discord-black4: #1e2124;
+}
+
+:root {
+    --default-shadow-gray: #a6a6a6;
     --default-purple: #373295;
-    --default-white: #fcfcfc;
-    --default-black: #404040;
-    --default-blue: #1B3C59;
-    --default-green: #9bd4ae;
     --default-orange: #eb9e5c;
     --default-yellow: #F0F0A8;
+    --default-green: #9bd4ae;
+    --default-black: #404040;
+    --default-white: #fcfcfc;
+    --default-roxa: #f0a4ed;
+    --default-blue: #1B3C59;
     --default-pink: #F2A999;
     --default-red: #f84e3f;
-    --default-shadow-gray: #a6a6a6;
 }
 
 /* the same color but more clear */
