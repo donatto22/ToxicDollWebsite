@@ -160,3 +160,21 @@ pre::before, pre::after {
 [rounded] {
     border-radius: 50%;
 }
+
+[data-type="new"]::after {
+    content: 'New';
+    color: white;
+    padding: 2px 6px;
+    margin-left: 4px;
+    border-radius: 4px;
+    background-color: var(--undraw-red);
+}
+
+[data-type="future"]::after {
+    content: 'Futuro';
+    color: #ddd;
+    padding: 2px 6px;
+    margin-left: 4px;
+    border-radius: 4px;
+    background-color: var(--bootstrap-bg-dark);
+}

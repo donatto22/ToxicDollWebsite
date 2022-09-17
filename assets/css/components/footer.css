@@ -1,3 +1,5 @@
+@import url('./responsive/responsive-footer.css');
+
 #footer {
     background-color: var(--firebase-dark-navy-blue);
     display: flex;
@@ -65,10 +67,11 @@
 }
 
 #spacer-footer {
-    width: 50%;
+    width: 70%;
     margin: 2em auto;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
 }
 
 .title {
